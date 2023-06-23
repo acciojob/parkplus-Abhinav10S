@@ -40,7 +40,7 @@ public class ParkingLotServiceImpl implements ParkingLotService {
             spot.setSpotType(SpotType.FOUR_WHEELER);
         }
         else{
-            spot.setSpotType(SpotType.OTHERS) ;
+            spot.setSpotType(SpotType.TWO_WHEELER) ;
         }
 
         spot.setPricePerHour(pricePerHour);
